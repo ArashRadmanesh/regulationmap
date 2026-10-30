@@ -1,0 +1,23 @@
+{
+  "name": "regulation-map",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:single": "vite build --mode single",
+    "preview": "vite preview",
+    "check-locales": "node scripts/check-locales.mjs"
+  },
+  "dependencies": {
+    "@fontsource/figtree": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10",
+    "vite-plugin-singlefile": "^2.0.3"
+  },
+  "private": true,
+  "type": "module"
+}
